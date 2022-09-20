@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Shrikhand&display=swap');
+
+:root {
+    --purple: #9356DC;
+    --pink: #FF79DA;
+    --bluegreen: #99E2D0;
+    --font: 'Roboto', 'Shrikhand' sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.img-tea{
+
+    width: 100%;
+    object-fit: cover;
+}
+ul{
+    display: flex;
+}
+li{
+
+    padding: 10px 35px;
+}
+.brown-text
+{ text-decoration:none;
+    font-size: 20px;
+    font-family: Roboto;
+    color: rgb(78, 54, 43);
+}
+.brown-text:hover{ 
+    color: rgb(57, 109, 42)}
+
+.green-text:hover{
+    border-bottom: solid 3px;
+    color: rgb(57, 109, 42);
+    cursor: pointer;
+}
+.green-text
+{ text-decoration:none;
+    font-size: 20px;
+    font-family: Roboto;
+    color: rgb(57, 109, 42);
+   font-weight: 700;}
+
+   .title-n1{
+    font-size:20px;
+    font-family: Roboto;
+    color: rgb(78, 54, 43);
+    padding: 10px 10px 0 10px;
+   }
+   .container{
+    display:flex;
+    padding: 0 30px;
+    flex-direction: row;
+}
+.img-tea-logo{
+    height:35px;
+ 
+}
+.container-bloc{
+    border-radius: 20px 20px 0 0;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    margin-top: -40px;
+    position: relative;
+} 
+main{
+    padding: 0;
+    background-color: #F6F6F6;
+}
+.container-title{
+    padding: 25px 25px 0;
+    font-family: roboto;
+    font-size: 20px;
+    color: rgb(78, 54, 43);
+    font-weight:700;
+}
+
+@media screen and (min-width: 768px) { 
+}
+@media screen and (min-width: 992px) {
+    .img-tea{
+        height: 500px;
+
+        
+    }
+    
+}
