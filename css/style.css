@@ -23,84 +23,106 @@ main {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 20px 0;
     background-color: rgb(255, 255, 255);
 }
 
-.img-tea{
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+
+}
+
+.img-tea {
 
     width: 100%;
     object-fit: cover;
 }
-ul{
+
+ul {
     display: flex;
 }
-li{
 
-    padding: 10px 35px;
+.li-first-nav {
+    padding: 25px 30px;
 }
-.brown-text
-{ text-decoration:none;
+.li-nav{
+    padding: 15px 31px;
+}
+
+.brown-text {
+    text-decoration: none;
     font-size: 20px;
     font-family: Roboto;
     color: rgb(78, 54, 43);
 }
-.brown-text:hover{ 
-    color: rgb(57, 109, 42)}
 
-.green-text:hover{
+.brown-text:hover {
+    color:rgb(90 151 73);;
     border-bottom: solid 3px;
-    color: rgb(57, 109, 42);
+    font-weight: bold;
+}
+
+.green-text:hover {
+    border-bottom: solid 3px;
+    color:rgb(90 151 73);;
     cursor: pointer;
 }
-.green-text
-{ text-decoration:none;
+
+.green-text {
+    text-decoration: none;
     font-size: 20px;
     font-family: Roboto;
-    color: rgb(57, 109, 42);
-   font-weight: 700;}
+    color: rgb(90 151 73);;
+    font-weight: 700;
+}
 
-   .title-n1{
-    font-size:20px;
+.title-n1 {
+    font-size: 20px;
     font-family: Roboto;
     color: rgb(78, 54, 43);
     padding: 10px 10px 0 10px;
-   }
-   .container{
-    display:flex;
-    padding: 0 30px;
+}
+
+.container {
+    display: flex;
     flex-direction: row;
 }
-.img-tea-logo{
-    height:35px;
- 
+
+.img-tea-logo {
+    width: 85%;
+
 }
-.container-bloc{
+
+.container-bloc {
     border-radius: 20px 20px 0 0;
     background-color: rgb(255, 255, 255);
     width: 100%;
     margin-top: -40px;
     position: relative;
-} 
-main{
+}
+
+main {
     padding: 0;
     background-color: #F6F6F6;
 }
-.container-title{
+
+.container-title {
     padding: 25px 25px 0;
     font-family: roboto;
     font-size: 20px;
     color: rgb(78, 54, 43);
-    font-weight:700;
+    font-weight: 700;
 }
 
-@media screen and (min-width: 768px) { 
-}
+@media screen and (min-width: 768px) {}
+
 @media screen and (min-width: 992px) {
-    .img-tea{
-        height: 500px;
+    .img-tea {
+        width: 100%;
+        height: auto;
 
-        
+
     }
-    
+
 }
