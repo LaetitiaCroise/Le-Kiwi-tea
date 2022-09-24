@@ -39,44 +39,7 @@ main {
     object-fit: cover;
 }
 
-ul {
-    display: flex;
-}
 
-.li-first-nav {
-    padding: 25px 30px;
-}
-
-.li-nav {
-    padding: 25px 30px;
-}
-
-.brown-text {
-    text-decoration: none;
-    font-size: 20px;
-    font-family: Roboto;
-    color: rgb(78, 54, 43);
-}
-
-.brown-text:hover {
-    color: rgb(114 164 100);
-    border-bottom: solid 3px;
-    font-weight: bold;
-}
-
-.green-text:hover {
-    border-bottom: solid 3px;
-    color: rgb(114 164 100);
-    cursor: pointer;
-}
-
-.green-text {
-    text-decoration: none;
-    font-size: 20px;
-    font-family: Roboto;
-    color: rgb(114 164 100);
-    font-weight: 700;
-}
 
 .title-n1 {
     font-size: 20px;
@@ -144,8 +107,37 @@ input{
     border-bottom: 1px solid;
     color:  rgb(193 193 193);
 }
-.btn-group{
+.btn-1{
     text-align: center;
+}
+.btn-2{
+    text-align: center;
+    margin-top: 15px;
+}
+.btn-tangerine{
+    background-color: rgb(100 148 65);;
+    color:#fff;
+    font-family: Roboto;
+    font-weight: 700;
+    border:none;
+    border-radius: 5px;
+    padding: 12px 115px;
+}
+.mdp-oublier{
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: 15px;
+}
+.btn-atomic{
+    background-color: rgb(78, 54, 43);
+    color:#fff;
+    font-family: Roboto;
+    font-weight: 700;
+    border:none;
+    border-radius: 5px;
+    padding: 12px 130px;
 }
 @media screen and (min-width: 768px) {}
 
