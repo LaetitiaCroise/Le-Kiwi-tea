@@ -28,8 +28,8 @@ main {
 
 .nav {
     display: flex;
-    justify-content: space-between;
     padding: 15px 0;
+    flex-direction: row;
 
 }
 
@@ -46,8 +46,9 @@ ul {
 .li-first-nav {
     padding: 25px 30px;
 }
-.li-nav{
-    padding: 15px 31px;
+
+.li-nav {
+    padding: 25px 30px;
 }
 
 .brown-text {
@@ -58,14 +59,14 @@ ul {
 }
 
 .brown-text:hover {
-    color:rgb(114 164 100);
+    color: rgb(114 164 100);
     border-bottom: solid 3px;
     font-weight: bold;
 }
 
 .green-text:hover {
     border-bottom: solid 3px;
-    color:rgb(114 164 100);
+    color: rgb(114 164 100);
     cursor: pointer;
 }
 
@@ -95,10 +96,10 @@ ul {
 }
 
 .container-bloc {
-    border-radius: 20px 20px 0 0;
+    border-radius: 30px 30px 0 0;
     background-color: rgb(255, 255, 255);
     width: 100%;
-    margin-top: -40px;
+    margin-top: -50px;
     position: relative;
 }
 
@@ -114,7 +115,38 @@ main {
     color: rgb(78, 54, 43);
     font-weight: 700;
 }
-
+h2{
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.text-font-normal {
+    font-weight: 300;
+    font-size: 16px;
+}
+.form_1{
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+}
+label {
+    max-width: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    padding: 0 25px;
+    font-family: roboto;
+    color: rgb(78, 54, 43);}
+input{
+    margin-top: 10px;
+    border-style: hidden;
+    border-bottom: 1px solid;
+    color:  rgb(193 193 193);
+}
+.btn-group{
+    text-align: center;
+}
 @media screen and (min-width: 768px) {}
 
 @media screen and (min-width: 992px) {
