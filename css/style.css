@@ -12,6 +12,9 @@ body {
     margin: 0;
 }
 
+header{
+    display: none;}
+
 main {
     padding: 0;
 }
