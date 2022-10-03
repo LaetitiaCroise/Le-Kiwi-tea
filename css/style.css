@@ -118,6 +118,8 @@ input{
     border-style: hidden;
     border-bottom: 1px solid;
     color:  rgb(193 193 193);
+    -webkit-transform: none;
+    -webkit-appearance: none;
 }
 .btn-1{
     text-align: center;
