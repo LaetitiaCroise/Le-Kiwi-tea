@@ -170,6 +170,7 @@ input{
     border-radius: 50%;
     border:none;
     cursor: pointer;
+    -webkit-appearance: none;
 }
 .container-btn{
     margin-bottom: 20px;
