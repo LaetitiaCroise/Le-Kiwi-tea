@@ -150,8 +150,19 @@ input{
     border:none;
     border-radius: 5px;
     padding: 12px 130px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
+/* .img-avatar{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 10px;
+    
+}
+.img-avatar-2{
+    width:20%;
+    background-color: rgb(100 148 65);
+    border-radius: 51px;
+} */
 @media screen and (min-width: 768px) {}
 
 @media screen and (min-width: 992px) {
