@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Shrikhand&display=swap');
 
 :root {
-    --font: 'Roboto', 'Shrikhand' sans-serif;
+    --font: 'Lato', 'Shrikhand' sans-serif;
 }
 
 * {
@@ -54,7 +54,7 @@ main {
 
 .title-n1 {
     font-size: 20px;
-    font-family: Roboto;
+    font-family: Lato;
     color: rgb(78, 54, 43);
     padding: 10px 10px 0 10px;
 }
@@ -84,7 +84,7 @@ main {
 
 .container-title {
     padding: 25px 25px 0;
-    font-family: roboto;
+    font-family: Lato;
     font-size: 20px;
     color: rgb(78, 54, 43);
     font-weight: 700;
@@ -92,6 +92,7 @@ main {
 h2{
     margin-bottom: 15px;
     font-size: 18px;
+    font-weight: 700;
 }
 .text-font-normal {
     font-weight: 300;
@@ -110,7 +111,7 @@ label {
     display: flex;
     flex-direction: column;
     padding: 0 25px;
-    font-family: roboto;
+    font-family: Lato;
     color: rgb(78, 54, 43);}
 input{
     margin-top: 10px;
@@ -128,7 +129,7 @@ input{
 .btn-tangerine{
     background-color: rgb(100 148 65);;
     color:#fff;
-    font-family: Roboto;
+    font-family: Lato;
     font-weight: 700;
     border:none;
     border-radius: 5px;
@@ -136,7 +137,7 @@ input{
 }
 .mdp-oublier{
     text-align: center;
-    font-family: Roboto;
+    font-family: Lato;
     font-weight: 300;
     font-size: 12px;
     margin-top: 15px;
@@ -144,7 +145,7 @@ input{
 .btn-atomic{
     background-color: rgb(78, 54, 43);
     color:#fff;
-    font-family: Roboto;
+    font-family: Lato;
     font-weight: 700;
     border:none;
     border-radius: 5px;
