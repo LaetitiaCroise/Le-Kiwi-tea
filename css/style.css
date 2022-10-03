@@ -151,19 +151,29 @@ input{
     border:none;
     border-radius: 5px;
     padding: 12px 130px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
-/* .img-avatar{
+.img-avatar{
     display: flex;
     justify-content: flex-end;
     padding: 0 10px;
+    margin: 10px;
     
 }
 .img-avatar-2{
-    width:20%;
+    width:100%;
+}
+.btn-help{
     background-color: rgb(100 148 65);
-    border-radius: 51px;
-} */
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border:none;
+    cursor: pointer;
+}
+.container-btn{
+    margin-bottom: 20px;
+}
 @media screen and (min-width: 768px) {}
 
 @media screen and (min-width: 992px) {
