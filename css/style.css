@@ -165,8 +165,8 @@ input{
 }
 .btn-help{
     background-color: rgb(100 148 65);
-    height: 60px;
-    width: 60px;
+    height: 64px;
+    width: 20%;
     border-radius: 50%;
     border:none;
     cursor: pointer;
