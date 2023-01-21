@@ -16,9 +16,10 @@ body {
 .logo-header{
     display: flex;
     justify-content: space-around;
+    background-color: aqua;
 }
 .logo{
-    width: 85%;
+    width: 50%;
     padding: 5px 0;
 }
 
