@@ -48,6 +48,14 @@ main {
     flex-direction: row;
 
 }
+.title_tea{
+    font-family: 'Lato';
+    font-weight: 800;
+    color: brown;
+    padding: 20px;
+    font-size: 20px
+}
+
 
 .img-tea {
 
@@ -58,6 +66,28 @@ main {
     left: 0;
     min-width: 100%;
     min-height: 100%;
+}
+.img_tea_tree{
+    width: 100%;
+    border-radius: 45px;
+    padding: 20px;
+    position:absolute;
+}
+.btn-position{
+    position: relative;
+    padding:20px;
+    width: 50%;
+    margin: 217px 100px;
+    background-color: rgb(100 148 65);
+    border-radius: 15px;
+    border: none;
+}
+.btn_btn_position{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato';
+    font-weight: 800;
+    font-size:15px;
 }
 
 
