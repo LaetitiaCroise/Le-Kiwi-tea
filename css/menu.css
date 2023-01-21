@@ -94,7 +94,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(255, 255, 255, 0.7);
 
   }
   .menu-wrap .menu > div {
@@ -118,10 +118,11 @@
   }
   .menu-wrap .menu > div > div > ul > li {
     list-style: none;
-    color: rgb(255, 255, 255);
+    color: rgb(78, 54, 43);
     font-size: 1.5rem;
     padding: 1rem;
     font-family: 'Lato';
+    font-weight: 800;
   }
   .menu-wrap .menu > div > div > ul > li > a {
     color: inherit;
