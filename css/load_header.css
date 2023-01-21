@@ -10,6 +10,15 @@
 	animation: opacity_loader 3s;
 	position: fixed;
 }
+.loding-logo-header{
+    display: flex;
+    justify-content: space-around;
+}
+.logo-header-load{
+    width: 50%;
+    padding: 5px 0;
+}
+
 
 /* .loader-circle-18 {
 	width: 70px;
