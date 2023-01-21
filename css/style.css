@@ -122,12 +122,7 @@ input{
 }
 .btn-1{
     text-align: center;
-}
-.btn-2{
-    text-align: center;
-    margin-top: 15px;
-}
-.btn-tangerine{
+    text-decoration: none;
     background-color: rgb(100 148 65);;
     color:#fff;
     font-family: Lato;
@@ -135,15 +130,11 @@ input{
     border:none;
     border-radius: 5px;
     padding: 12px 115px;
+    margin: 22px;
 }
-.mdp-oublier{
+.btn-2{
     text-align: center;
-    font-family: Lato;
-    font-weight: 300;
-    font-size: 12px;
-    margin-top: 15px;
-}
-.btn-atomic{
+    margin: 22px;
     background-color: rgb(78, 54, 43);
     color:#fff;
     font-family: Lato;
@@ -151,7 +142,23 @@ input{
     border:none;
     border-radius: 5px;
     padding: 12px 130px;
-    margin-bottom: 10px;
+}
+
+.btn_btn{
+    color: #fff;
+    text-decoration: none;
+    font-family: Lato;
+}
+.mdp-oublier{
+    text-align: center;
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 12px;
+}
+.btn-atomic{
+    color: #fff;
+    text-decoration: none;
+
 }
 .img-avatar{
     display: flex;
@@ -165,8 +172,8 @@ input{
 }
 .btn-help{
     background-color: rgb(100 148 65);
-    height: 64px;
-    width: 64px;
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
     border:none;
     cursor: pointer;
