@@ -111,7 +111,7 @@ label {
     display: flex;
     flex-direction: column;
     padding: 0 25px;
-    font-family: Lato;
+    font-family: 'Lato';
     color: rgb(78, 54, 43);}
 input{
     margin-top: 10px;
@@ -125,7 +125,7 @@ input{
     text-decoration: none;
     background-color: rgb(100 148 65);;
     color:#fff;
-    font-family: Lato;
+    font-family: 'Lato';
     font-weight: 700;
     border:none;
     border-radius: 5px;
@@ -137,7 +137,7 @@ input{
     margin: 22px;
     background-color: rgb(78, 54, 43);
     color:#fff;
-    font-family: Lato;
+    font-family: 'Lato';
     font-weight: 700;
     border:none;
     border-radius: 5px;
@@ -151,7 +151,7 @@ input{
 }
 .mdp-oublier{
     text-align: center;
-    font-family: Lato;
+    font-family: 'Lato';
     font-weight: 300;
     font-size: 12px;
 }
@@ -177,7 +177,7 @@ input{
     border-radius: 50%;
     border:none;
     cursor: pointer;
-    -webkit-appearance: none;
+    
 }
 .container-btn{
     margin-bottom: 20px;
