@@ -77,10 +77,14 @@ main {
     position: relative;
     padding:20px;
     width: 50%;
-    margin: 217px 100px;
+    margin: 210px 100px 0 100px;
     background-color: rgb(100 148 65);
     border-radius: 15px;
     border: none;
+}
+.fa-chevron-right{
+    color: #fff;
+    margin-left: 70px;
 }
 .btn_btn_position{
     text-decoration: none;
