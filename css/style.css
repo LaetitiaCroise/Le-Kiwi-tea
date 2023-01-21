@@ -14,13 +14,13 @@ body {
 
 @media (min-width: 368px) {
     
-.logo-header:before {
+.logo-header {
     display: flex;
     justify-content: space-around;
     display: none;
 }
 
-.logo-header:after {
+.logo-header {
     display: flex;
     justify-content: space-around;
 
@@ -133,7 +133,7 @@ input{
 .btn-1{
     text-align: center;
     text-decoration: none;
-    background-color: rgb(100 148 65);;
+    background-color: rgb(100 148 65);
     color:#fff;
     font-family: 'Lato';
     font-weight: 700;
