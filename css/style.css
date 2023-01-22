@@ -10,291 +10,304 @@
 
 body {
     margin: 0;
+    display: grid;
+    place-content: center;
 }
-
-
-
 
 @media (min-width: 368px) {
-    
-.logo-header {
-    display: flex;
-    justify-content: space-around;
-    display: none;
-}
 
-.logo-header {
-    display: flex;
-    justify-content: space-around;
+    .logo-header {
+        display: flex;
+        justify-content: space-around;
+        display: none;
+        background-color: #fff;
+    }
 
-}
-
-.logo{
-    width: 50%;
-    padding: 5px 0;
-}
-
-main {
-    padding: 0;
-}
-
-.navbar {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(255, 255, 255);
-}
-
-.nav {
-    display: flex;
-    padding: 15px 0;
-    flex-direction: row;
-
-}
-
-
-.img-tea {
-
-    width: 100%;
-    object-fit: cover;
-    position: sticky;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 100%;
-}
-.img_tea_tree{
-    width: 100%;
-    border-radius: 45px;
-    padding: 20px;
-    position:absolute;
-}
-.btn-position{
-    position: relative;
-    padding:20px;
-    width: 60%;
-    margin: 210px 75px 0 75px;
-    background-color: rgb(100 148 65);
-    border-radius: 15px;
-    border: none;
-}
-.fa-chevron-right{
-    color: #fff;
-    margin-left: 70px;
-}
-.btn_btn_position{
-    text-decoration: none;
-    color: white;
-    font-family: 'Lato';
-    font-weight: 800;
-    font-size:15px;
-}
-.btn-position1{
-    position: relative;
-    padding:20px;
-    width: 60%;
-    margin: 210px 75px 0 75px;
-    background-color: rgb(78, 54, 43);
-    border-radius: 15px;
-    border: none;
-}
-
-.title-n1 {
-    font-size: 20px;
-    font-family: Lato;
-    color: rgb(78, 54, 43);
-    padding: 10px 10px 0 10px;
-}
-
-.container {
-    display: flex;
-    flex-direction: row;
-}
-
-.img-tea-logo {
-    width: 85%;
-
-}
-.tech-slideshow{
-    display: flex;
-}
-
-
-.img_tea_tree1, .img_tea_tree2, .img_tea_tree3{
-    width: 155px;
-    height: 120px;
-    margin: 10px;
-    padding: 5px;
-    border-radius: 20px;
-    /* margin-top: 30px; */
-}
-
-
-.container-bloc {
-    border-radius: 30px 30px 0 0;
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    margin-top: -50px;
-    position: relative;
-}
-
-main {
-    padding: 0;
-    background-color: #F6F6F6;
-}
-@import "https://unpkg.com/open-props";
-@import "https://unpkg.com/open-props/normalize.min.css";
-
-.scrollport {
-  /* -webkit-mask-image: linear-gradient(to right, #0000, #000, #000, #0000); */
-  
-  overflow-x: auto;
-  overscroll-behavior-x: contain;
-  
-  display: flex;
-  gap: var(--size-10);
-  align-items: start;
-  padding: var(--size-10);
-
-}
-
-.scrollport > div {
-  block-size: var(--size-15);
-  aspect-ratio: var(--ratio-square);
-  background-color: var(--surface-2);
-  border-radius: var(--radius-3);
-  box-shadow: var(--shadow-4);
-  
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-body {
-  display: grid;
-  place-content: center;
-}
-
-.container-title {
-    padding: 25px 25px 0;
-    font-family: Lato;
-    font-size: 20px;
-    color: rgb(78, 54, 43);
-    font-weight: 700;
-}
-h2{
-    margin-bottom: 15px;
-    font-size: 18px;
-    font-weight: 700;
-}
-.text-font-normal {
-    font-weight: 300;
-    font-size: 16px;
-}
-.form_1{
-    display: flex;
-    flex-direction: column;
-    text-align:left;
-}
-label {
-    max-width: 100%;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    font-weight: 700;
-    display: flex;
-    flex-direction: column;
-    padding: 0 25px;
-    font-family: 'Lato';
-    color: rgb(78, 54, 43);}
-input{
-    margin-top: 10px;
-    border-style: hidden;
-    border-bottom: 1px solid;
-    color:  rgb(193 193 193);
-    -webkit-appearance: none;
-}
-.btn-1{
-    text-align: center;
-    text-decoration: none;
-    background-color: rgb(100 148 65);
-    color:#fff;
-    font-family: 'Lato';
-    font-weight: 700;
-    border:none;
-    border-radius: 5px;
-    padding: 12px 115px;
-    margin: 22px;
-}
-.btn-2{
-    text-align: center;
-    margin: 22px;
-    background-color: rgb(78, 54, 43);
-    color:#fff;
-    font-family: 'Lato';
-    font-weight: 700;
-    border:none;
-    border-radius: 5px;
-    padding: 12px 130px;
-}
-
-.btn_btn{
-    color: #fff;
-    text-decoration: none;
-    font-family: Lato;
-}
-.mdp-oublier{
-    text-align: center;
-    font-family: 'Lato';
-    font-weight: 300;
-    font-size: 12px;
-}
-.btn-atomic{
-    color: #fff;
-    text-decoration: none;
-
-}
-.img-avatar{
-    display: flex;
-    justify-content: flex-end;
-    padding: 0 10px;
-    margin: 10px;
-    
-}
-.img-avatar-2{
-    width:100%;
-}
-.btn-help{
-    background-color: rgb(100 148 65);
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    border:none;
-    cursor: pointer;
-    -webkit-appearance : none;
-}
-.container-btn{
-    margin-bottom: 20px;
-}
-@media screen and (min-width: 768px) {}
-
-@media screen and (min-width: 992px) {
-    .img-tea {
-        width: 100%;
-        height: auto;
-
+    .logo-header {
+        display: flex;
+        justify-content: space-around;
 
     }
 
-}
+    .logo {
+        width: 50%;
+        padding: 5px 0;
+    }
+
+
+    main {
+        padding: 0;
+    }
+
+    .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+    }
+
+    .nav {
+        display: flex;
+        padding: 15px 0;
+        flex-direction: row;
+
+    }
+
+    .wapper_header {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .img-tea {
+
+        width: 100%;
+        object-fit: cover;
+        position: sticky;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+    .img_tea_tree {
+        width: 100%;
+        border-radius: 45px;
+        padding: 20px;
+        position: absolute;
+    }
+
+    .btn-position {
+        position: relative;
+        padding: 20px;
+        width: 60%;
+        margin: 210px 75px 0 75px;
+        background-color: rgb(100 148 65);
+        border-radius: 15px;
+        border: none;
+    }
+
+    .fa-chevron-right {
+        color: #fff;
+        margin-left: 70px;
+    }
+
+    .btn_btn_position {
+        text-decoration: none;
+        color: white;
+        font-family: 'Lato';
+        font-weight: 800;
+        font-size: 15px;
+    }
+
+    .btn-position1 {
+        position: relative;
+        padding: 20px;
+        width: 60%;
+        margin: 210px 75px 0 75px;
+        background-color: rgb(78, 54, 43);
+        border-radius: 15px;
+        border: none;
+    }
+
+    .title-n1 {
+        font-size: 20px;
+        font-family: Lato;
+        color: rgb(78, 54, 43);
+        padding: 10px 10px 0 10px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .img-tea-logo {
+        width: 85%;
+
+    }
+
+    .tech-slideshow {
+        display: flex;
+    }
+
+
+    .img_tea_tree1,
+    .img_tea_tree2,
+    .img_tea_tree3 {
+        width: 155px;
+        height: 120px;
+        margin: 10px;
+        padding: 5px;
+        border-radius: 20px;
+        /* margin-top: 30px; */
+    }
+
+
+    .container-bloc {
+        border-radius: 30px 30px 0 0;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        margin-top: -50px;
+        position: relative;
+    }
+
+    @import "https://unpkg.com/open-props";
+    @import "https://unpkg.com/open-props/normalize.min.css";
+
+    .scrollport {
+        /* -webkit-mask-image: linear-gradient(to right, #0000, #000, #000, #0000); */
+
+        overflow-x: auto;
+        overscroll-behavior-x: contain;
+        display: flex;
+        gap: var(--size-10);
+        align-items: start;
+        padding: var(--size-10);
+        margin-top: 13px;
+
+    }
+
+    .scrollport>div {
+        block-size: var(--size-15);
+        aspect-ratio: var(--ratio-square);
+        background-color: var(--surface-2);
+        border-radius: var(--radius-3);
+        box-shadow: var(--shadow-4);
+
+    }
+
+
+
+    .container-title {
+        padding: 25px 25px 0;
+        font-family: Lato;
+        font-size: 20px;
+        color: rgb(78, 54, 43);
+        font-weight: 700;
+    }
+
+    h2 {
+        margin-bottom: 15px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .text-font-normal {
+        font-weight: 300;
+        font-size: 16px;
+    }
+
+    .form_1 {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    label {
+        max-width: 100%;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        font-weight: 700;
+        display: flex;
+        flex-direction: column;
+        padding: 0 25px;
+        font-family: 'Lato';
+        color: rgb(78, 54, 43);
+    }
+
+    input {
+        margin-top: 10px;
+        border-style: hidden;
+        border-bottom: 1px solid;
+        color: rgb(193 193 193);
+        -webkit-appearance: none;
+    }
+
+    .btn-1 {
+        text-align: center;
+        text-decoration: none;
+        background-color: rgb(100 148 65);
+        color: #fff;
+        font-family: 'Lato';
+        font-weight: 700;
+        border: none;
+        border-radius: 5px;
+        padding: 12px 115px;
+        margin: 22px;
+    }
+
+    .btn-2 {
+        text-align: center;
+        margin: 22px;
+        background-color: rgb(78, 54, 43);
+        color: #fff;
+        font-family: 'Lato';
+        font-weight: 700;
+        border: none;
+        border-radius: 5px;
+        padding: 12px 130px;
+    }
+
+    .btn_btn {
+        color: #fff;
+        text-decoration: none;
+        font-family: Lato;
+    }
+
+    .mdp-oublier {
+        text-align: center;
+        font-family: 'Lato';
+        font-weight: 300;
+        font-size: 12px;
+    }
+
+    .btn-atomic {
+        color: #fff;
+        text-decoration: none;
+
+    }
+
+    .img-avatar {
+        display: flex;
+        justify-content: flex-end;
+        padding: 0 10px;
+        margin: 10px;
+
+    }
+
+    .img-avatar-2 {
+        width: 100%;
+    }
+
+    .btn-help {
+        background-color: rgb(100 148 65);
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        border: none;
+        cursor: pointer;
+        -webkit-appearance: none;
+    }
+
+    .container-btn {
+        margin-bottom: 20px;
+    }
+
+    @media screen and (min-width: 768px) {}
+
+    @media screen and (min-width: 992px) {
+        .img-tea {
+            width: 100%;
+            height: auto;
+
+
+        }
+
+    }
 }
