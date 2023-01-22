@@ -12,6 +12,9 @@ body {
     margin: 0;
 }
 
+
+
+
 @media (min-width: 368px) {
     
 .logo-header {
@@ -47,13 +50,6 @@ main {
     padding: 15px 0;
     flex-direction: row;
 
-}
-.title_tea{
-    font-family: 'Lato';
-    font-weight: 800;
-    color: rgb(78, 54, 43);
-    padding: 20px;
-    font-size: 20px
 }
 
 
@@ -148,6 +144,7 @@ main {
   gap: var(--size-10);
   align-items: start;
   padding: var(--size-10);
+  -webkit-appearance: none;
 }
 
 .scrollport > div {
