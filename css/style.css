@@ -403,6 +403,7 @@ body {
     height: 65px;
     font-size: 15px;
     font-weight: bold;
+    border-radius: 15px;
 }
 
 .accordion-select {
