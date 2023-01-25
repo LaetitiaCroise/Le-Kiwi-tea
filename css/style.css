@@ -110,7 +110,7 @@ body {
         padding: 20px;
         width: 60%;
         margin: 215px 75px 0 75px;
-        background-color: rgb(78, 54, 43);
+        background-color: #4e362b;
         border-radius: 15px;
         border: none;
     }
@@ -136,6 +136,24 @@ body {
         display: flex;
     }
 
+    .logo-header-footer{
+        width: 70%;
+        flex-direction: column;
+    }
+    .container_footer{
+        display: flex;
+        background-color: rgb(78, 54, 43);
+        justify-content: space-around;
+        padding: 30px;
+        margin-top: 20px;
+        
+
+    }
+    .footer_paragraphe{
+        color: rgb(0, 0, 0);
+        flex-direction: column;
+        position: absolute;
+    }
 
     .img_tea_tree1,
     .img_tea_tree2,
