@@ -15,7 +15,9 @@ body {
 }
 
 @media (min-width: 368px) {
-
+    .date_brithday{
+        -webkit-appearance: none;
+    }
     .identifiant {
         display: flex;
         justify-content: space-between;
