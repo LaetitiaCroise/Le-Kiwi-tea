@@ -428,10 +428,11 @@ body {
     padding-right: 33px;
     line-height: 65px;
 } 
-.img_tea_tree1{
-  
-    width: 94%;
-    
+.img_tea22{
+    width: 100%;
+    border-radius: 45px;
+        padding: 20px;
+        
 }
 
     @media screen and (min-width: 768px) {}
