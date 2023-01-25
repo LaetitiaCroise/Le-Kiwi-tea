@@ -104,13 +104,13 @@
 @keyframes opacity_loader {
 	0% {
 		opacity: 0.9;
-		z-index: 100;
+		z-index: 200;
 
 	}
 
 	70% {
 		opacity: 0.9;
-		z-index: 100;
+		z-index: 200;
 
 
 	}
