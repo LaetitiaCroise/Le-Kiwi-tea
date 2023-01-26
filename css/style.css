@@ -15,8 +15,10 @@ body {
 }
 
 @media (min-width: 368px) {
-    .date_brithday{
-    appearance: none;
+    .date_brithday::-webkit-inner-spin-button,
+    .date_brithday::-webkit-calendar-picker-indicator {
+        display: none;
+        -webkit-appearance: none;
     }
     .identifiant {
         display: flex;
