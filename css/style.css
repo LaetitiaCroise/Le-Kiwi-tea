@@ -18,6 +18,8 @@ body {
 
     .date_brithday {
         -webkit-appearance: none;
+        width: 100%;
+        padding:10px
     }
     .date_brithday::-webkit-inner-spin-button,
     .date_brithday::-webkit-calendar-picker-indicator {
