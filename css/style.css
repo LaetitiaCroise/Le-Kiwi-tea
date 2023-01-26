@@ -16,7 +16,7 @@ body {
 
 @media (min-width: 368px) {
     .date_brithday{
-        -webkit-appearance: none;
+    appearance: none;
     }
     .identifiant {
         display: flex;
