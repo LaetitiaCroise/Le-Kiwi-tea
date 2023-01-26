@@ -19,13 +19,15 @@ body {
     .date_brithday {
         -webkit-appearance: none;
         width: 100%;
-        padding:10px
+        padding: 10px
     }
+
     .date_brithday::-webkit-inner-spin-button,
     .date_brithday::-webkit-calendar-picker-indicator {
         display: none;
         -webkit-appearance: none;
     }
+
     .identifiant {
         display: flex;
         justify-content: space-between;
@@ -35,6 +37,26 @@ body {
         font-family: 'Lato';
         font-weight: 800;
         color: rgb(100 148 65);
+    }
+
+    .identifiant-box{
+        display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 20px;
+    padding: 60px;
+    border-radius: 15px;
+    font-family: 'Lato';
+    font-weight: 800;
+    color: rgb(100 148 65);
+    background-color: #fff;
+    -webkit-box-shadow: 10px 10px 24px 0px rgb(0 0 0 / 75%);
+    -moz-box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 24px 0px rgb(0 0 0 / 75%);
+}
+
     }
 
     .logo-header {
@@ -182,6 +204,13 @@ body {
 
 
     }
+    .container_footer1{
+        display: flex;
+        background-color: rgb(78, 54, 43);
+        justify-content: space-around;
+        padding: 30px;
+        margin-top: 285px;
+    }
 
     .footer_paragraphe {
         color: rgb(0, 0, 0);
@@ -320,6 +349,7 @@ body {
         text-decoration: none;
         font-family: Lato;
     }
+
 
     .mdp-oublier {
         text-align: center;
@@ -469,6 +499,8 @@ body {
 
     }
 
+    
+
     @media screen and (min-width: 768px) {}
 
     @media screen and (min-width: 992px) {
@@ -479,8 +511,7 @@ body {
 
         }
 
+        /*pop up window*/
+        
+
     }
-
-
-
-}
