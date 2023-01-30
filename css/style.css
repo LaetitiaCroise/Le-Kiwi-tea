@@ -507,31 +507,51 @@ body {
     }
     .cards{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        align-content: center;
     }
     .title_tea{
-        margin:16px;
+        margin-left: 35px;
         color: #4e362b;
         font-family: 'Lato';
         font-weight: 800;
     }
+    
     .cards1{
-        width: 42%;
+        width: 80%;
         margin: 15px;
+        display: flex;
+        flex-direction: column;
         
+    }
+    .fa-mug-tea{
+        color: #4e362b;
     }
     .img_cards{
         width: 100%;
         border-radius: 15px;
     }
-    .text_boutique{
+    /* .text_boutique{
         font-family: 'Lato';
         color:rgb(78, 54, 43);
-        text-align: center;
+        text-align: left;
         font-weight:800;
         margin-top: 5px;
+    } */
+    .text_boutique{
+    font-family: 'Lato';
+    color: rgb(78, 54, 43);
+    text-align: left;
+    font-weight: 800;
+    background-color: white;
+    padding: 20px;
+    margin-top: -55px;
+    border-radius: 0 0 15px 15px;
+    opacity: 0.8;
+    }
+    .fa-mug-tea{
+        color: #000;
     }
         @media screen and (min-width: 768px) {}
 
