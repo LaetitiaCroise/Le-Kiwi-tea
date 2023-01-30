@@ -520,17 +520,26 @@ body {
     .cards1{
         width: 85%;
         margin: 15px;
-        display: flex;
-        flex-direction: column;
+        /* display: flex;
+        flex-direction: column; */
         
     }
     .fa-mug-tea-saucer{
         color: #4e362b;
-        width: 100%;
+        width: 30%;
     }
     .img_cards{
         width: 100%;
         border-radius: 15px;
+    }
+    .avis{
+        background-color: white;
+    padding: 20px;
+    margin-top: -55px;
+    border-radius: 0 0 15px 15px;
+    opacity: 0.8;
+    display: flex;
+    justify-content:space-between;
     }
 
     .text_boutique{
@@ -538,11 +547,11 @@ body {
     color: rgb(78, 54, 43);
     text-align: left;
     font-weight: 800;
-    background-color: white;
+    /* background-color: white;
     padding: 20px;
     margin-top: -55px;
     border-radius: 0 0 15px 15px;
-    opacity: 0.8;
+    opacity: 0.8; */
     }
         @media screen and (min-width: 768px) {}
 
