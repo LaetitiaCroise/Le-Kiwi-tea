@@ -545,6 +545,13 @@ body {
     display: flex;
     justify-content:space-between;
     }
+    .fa-mug-hot{
+        color: #4e362b;
+    }
+    .greene{
+        color: rgb(100 148 65);
+    }
+    
     /* .fa-mug-hot-green{
         color: rgb(100 148 65);
     } */
