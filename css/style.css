@@ -344,6 +344,7 @@ body {
         border: none;
         border-radius: 5px;
         padding: 12px 130px;
+        text-decoration: none;
     }
 
     .btn_btn {
@@ -359,12 +360,6 @@ body {
         font-weight: 300;
         font-size: 12px;
         margin-top: 30px;
-    }
-
-    .btn-atomic {
-        color: #fff;
-        text-decoration: none;
-
     }
 
     .img-avatar {
@@ -388,9 +383,17 @@ body {
         cursor: pointer;
         -webkit-appearance: none;
     }
+    .inscription-title{
+        margin-left: 0;
+        font-size: 17px;
+    }
 
     .container-btn {
         margin-bottom: 20px;
+        margin-top: 40px;
+    }
+    .form-group{
+        margin-bottom: 50px;
     }
 
     /* Accordion */
