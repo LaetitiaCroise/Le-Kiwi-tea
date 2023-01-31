@@ -535,7 +535,7 @@ input {
 
 .cards1 {
     width: 90%;
-    margin: 15px;
+    margin: 0 15px 15px 15px;;
     /* display: flex;
         flex-direction: column; */
 
