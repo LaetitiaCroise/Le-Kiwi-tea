@@ -544,17 +544,18 @@ input {
 .card-new {
     display: flex;
     font-weight: 700;
-    padding: 10px 15px;
+    padding: 10px 19px;
     background-color: rgb(100 148 65);
     color: #fff;
     border-radius: 3px;
     position: relative;
     top: 50px;
     width: 104px;
-    left: 230px;
+    left: 220px;
     cursor: pointer;
     font-weight: 600;
     font-family: 'Lato';
+    font-size: 14px;
     /* animation-duration: .8s;
     animation-name: clignoter;
     animation-iteration-count: infinite;
