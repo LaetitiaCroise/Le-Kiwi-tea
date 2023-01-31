@@ -549,12 +549,12 @@ input {
     color: #fff;
     border-radius: 3px;
     position: relative;
-    top: 48px;
+    top: 50px;
     width: 104px;
-    left: 220px;
+    left: 215px;
     cursor: pointer;
     font-weight: 600;
-    animation-duration: .9s;
+    animation-duration: .8s;
     animation-name: clignoter;
     animation-iteration-count: infinite;
     transition: none;
