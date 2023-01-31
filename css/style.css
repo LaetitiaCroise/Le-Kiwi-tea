@@ -316,9 +316,11 @@ input {
     border-style: hidden;
     border-bottom: 1px solid;
     color: rgb(193 193 193);
+    
+}
+input::-webkit-input{
     -webkit-appearance: none;
 }
-
 .btn-1 {
     text-align: center;
     text-decoration: none;
@@ -384,8 +386,12 @@ input {
     border-radius: 50%;
     border: none;
     cursor: pointer;
+    
+}
+.btn-help::-webkit-btn-help{
     -webkit-appearance: none;
 }
+
 
 .inscription-title {
     margin-left: 0;
@@ -535,7 +541,7 @@ input {
 
 .cards1 {
     width: 90%;
-    margin: 0 15px 15px 15px;;
+    margin: 15px;
     /* display: flex;
         flex-direction: column; */
 
@@ -548,20 +554,25 @@ input {
     background-color: rgb(100 148 65);
     color: #fff;
     border-radius: 3px;
-    position: relative;
-    top: 50px;
+    position: absolute;
+    margin-top: 20px;
     width: 104px;
-    left: 220px;
+    margin-left: 230px;
     cursor: pointer;
     font-weight: 600;
     font-family: 'Lato';
     font-size: 14px;
+
     /* animation-duration: .8s;
     animation-name: clignoter;
     animation-iteration-count: infinite;
     transition: none;
     font-family: 'Lato';
     z-index: 1; */
+}
+
+.card-new::-webkit-card-new{
+    -webkit-appearance: none;
 }
 
 /* @keyframes clignoter {
