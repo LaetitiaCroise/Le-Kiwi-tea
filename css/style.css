@@ -132,7 +132,6 @@ main {
 
 .img_tea_tree {
     width: 100%;
-    height: 33%;
     border-radius: 45px;
     padding: 20px;
     position: absolute;
@@ -142,7 +141,7 @@ main {
     position: relative;
     padding: 20px;
     width: 60%;
-    margin: 225px 75px 0 75px;
+    margin: 213px 75px 0 75px;
     background-color: rgb(100 148 65);
     border-radius: 15px;
     border: none;
@@ -165,7 +164,7 @@ main {
     position: relative;
     padding: 20px;
     width: 60%;
-    margin: 225px 75px 0 75px;
+    margin: 215px 75px 0 75px;
     background-color: #4e362b;
     border-radius: 15px;
     border: none;
