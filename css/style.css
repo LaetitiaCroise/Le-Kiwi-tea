@@ -555,9 +555,9 @@ input::-webkit-input{
     color: #fff;
     border-radius: 3px;
     position: absolute;
-    margin-top: 20px;
+    margin-top: 15px;
     width: 104px;
-    margin-left: 230px;
+    margin-left: 59%;
     cursor: pointer;
     font-weight: 600;
     font-family: 'Lato';
