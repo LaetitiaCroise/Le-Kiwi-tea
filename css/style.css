@@ -551,9 +551,10 @@ input {
     position: relative;
     top: 50px;
     width: 104px;
-    left: 215px;
+    left: 230px;
     cursor: pointer;
     font-weight: 600;
+    font-family: 'Lato';
     /* animation-duration: .8s;
     animation-name: clignoter;
     animation-iteration-count: infinite;
