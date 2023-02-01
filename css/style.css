@@ -265,7 +265,7 @@ main {
     display: none;
 }
 
-.scrollport>div {
+.scrollport>.slider {
     block-size: var(--size-15);
     aspect-ratio: var(--ratio-square);
     background-color: var(--surface-2);
@@ -659,11 +659,21 @@ input::-webkit-input{
 main{
     padding: 0;
 }
+.logo{
+    width: 20%;
+}
 
-.contenaire, .container1{
-    display: flex;
-    flex-direction: row;
-    background-color: #fff;
+.contenaire{
+   max-width: 1340px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contenaire1{
+    max-width: 1340px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -674,12 +684,45 @@ nav {
     padding: 20px 0;}
 
     .center-body{
-        display: flex;
-    flex-direction: row;
-    width: 1140px;
+        max-width: 1340px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .wapper_header{
         width: 100%;
+        max-width: 1340px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .btn-position, .btn-position1{
+        width: 225px;
+    }
+    .scrollport{
+        display:flex;
+        flex-wrap: wrap;
+        max-width: 1340px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .slider{
+        width: 337px;
+    }
+    .img_tea_tree1{
+        width:310px;
+    }
+    footer{
+        max-width: 1340px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logo-header{
+        max-width: 1340px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     /*pop up window*/
