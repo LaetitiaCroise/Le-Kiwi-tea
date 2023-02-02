@@ -96,7 +96,7 @@ main {
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    margin-top: 90px;
+    margin-top: 85px;
 }
 
 .contenaire1 {
@@ -138,13 +138,14 @@ main {
     border-radius: 45px;
     padding: 17px;
     position: absolute;
+    margin-top: 10px;
 }
 
 .btn-position {
     position: relative;
     padding: 19px;
     width: 60%;
-    margin: 210px 75px 0 75px;
+    margin: 215px 75px 0 75px;
     background-color: rgb(100 148 65);
     border-radius: 15px;
     border: none;
@@ -167,7 +168,7 @@ main {
     position: relative;
     padding: 19px;
     width: 60%;
-    margin: 210px 75px 0 75px;
+    margin: 215px 75px 0 75px;
     background-color: #4e362b;
     border-radius: 15px;
     border: none;
