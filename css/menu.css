@@ -110,7 +110,7 @@
     transition: all 0.4s ease;
   }
   .menu-wrap .menu > div > nav {
-    text-align: center;
+    text-align: left;
     max-width: 90vw;
     max-height: 100vh;
     opacity: 0;
@@ -138,5 +138,8 @@
     color: rgb(255, 255, 255);
     font-weight: 800;
    
+  }
+  @media screen and (min-width: 992px){
+    
   }
   
