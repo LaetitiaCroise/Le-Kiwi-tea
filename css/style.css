@@ -254,6 +254,7 @@ main {
     background-color: rgb(255, 255, 255);
     width: 100%;
     margin-top: -50px;
+    /* margin-bottom: 20px; */
     position: relative;
 }
 
@@ -344,8 +345,9 @@ input::-webkit-input {
     font-weight: 700;
     border: none;
     border-radius: 5px;
-    padding: 12px 115px;
+    padding: 12px 100px;
     margin: 22px;
+    
 }
 
 .form-group1 {
@@ -361,7 +363,7 @@ input::-webkit-input {
     font-weight: 700;
     border: none;
     border-radius: 5px;
-    padding: 12px 130px;
+    padding: 12px 100px;
     text-decoration: none;
 }
 
@@ -377,8 +379,7 @@ input::-webkit-input {
     font-family: 'Lato';
     font-weight: 300;
     font-size: 12px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    /* margin-top: 30px; */
 }
 
 .img-avatar {
@@ -414,7 +415,6 @@ input::-webkit-input {
 }
 
 .container-btn {
-    margin-bottom: 20px;
     margin-top: 40px;
 }
 
@@ -620,6 +620,11 @@ input::-webkit-input {
     color: rgb(78, 54, 43);
     text-align: left;
     font-weight: 800;
+}
+.contenaire-btn-1{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
 }
 }
 
@@ -885,10 +890,10 @@ input::-webkit-input {
         width: 100%;
         height:500px;
     }
-    .contenaire-btn-1{
+    /* .contenaire-btn-1{
         display: flex;
     justify-content: space-evenly;
-    }
+    } */
     
 .mdp-oublier{
     display:flex;
