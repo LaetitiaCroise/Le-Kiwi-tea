@@ -379,7 +379,7 @@ input::-webkit-input {
     font-family: 'Lato';
     font-weight: 300;
     font-size: 12px;
-    /* margin-top: 30px; */
+    margin-top: 30px;
 }
 
 .img-avatar {
@@ -415,7 +415,7 @@ input::-webkit-input {
 }
 
 .container-btn {
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .form-group {
@@ -625,8 +625,11 @@ input::-webkit-input {
 display: flex;
 flex-wrap: wrap;
 flex-direction: column;
+margin: auto;
+margin-top: 20px;
 }
 }
+
 
 
 
@@ -890,13 +893,23 @@ flex-direction: column;
         width: 100%;
         height:500px;
     }
-    /* .contenaire-btn-1{
+    .contenaire-btn-1{
         display: flex;
-    justify-content: space-evenly;
-    } */
+        flex-direction: row;
+        margin: unset;
+    justify-content: flex-end;
+    }
     
 .mdp-oublier{
     display:flex;
+}
+.btn-mdp{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.mdp-oublier {
+ 
+    margin-top: 0px;
 }
     /*pop up window*/
 
