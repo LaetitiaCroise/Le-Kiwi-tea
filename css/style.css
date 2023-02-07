@@ -47,9 +47,9 @@ main {
         
     }
 
-    /* .menu_desktop{
+    .menu_desktop{
     display: none;
-    } */
+    }
 
     .identifiant-box {
         display: flex;
@@ -148,7 +148,7 @@ main {
     border-radius: 45px;
     padding: 17px;
     position: absolute;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 .btn-position {
