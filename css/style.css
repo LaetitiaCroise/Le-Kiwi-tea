@@ -856,6 +856,9 @@ input::-webkit-input {
         z-index: 100;
         transition: left 0.65s ease-out;
     }
+    .logo-header-footer{
+        width: 270px;
+    }
 
     /*pop up window*/
 
