@@ -42,10 +42,10 @@ main {
         font-weight: 800;
         color: rgb(100 148 65);
     }
-    /* .slider-container{
+    .slider-container{
          display: none;
         
-    } */
+    }
 
     /* .menu_desktop{
     display: none;
@@ -800,6 +800,7 @@ input::-webkit-input {
     }
 
     .slider-container {
+        display: flex;
         max-width: 1300px;
         position: relative;
         margin: auto;
