@@ -144,7 +144,7 @@ main {
     .img-tea {
 
         width: 100%;
-        height: 250px;
+        
         object-fit: cover;
         position: sticky;
         margin-top: 75px;
@@ -155,6 +155,7 @@ main {
 
     .img_tea_tree {
         width: 100%;
+        height: 250px;
         border-radius: 45px;
         padding: 17px;
         position: absolute;
