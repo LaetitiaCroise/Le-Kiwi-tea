@@ -46,6 +46,7 @@ main {
         font-weight: 800;
         color: rgb(100 148 65);
     }
+  
     .title_bienvenue{
         display:none;
     }
@@ -156,7 +157,7 @@ main {
         border-radius: 45px;
         padding: 17px;
         position: absolute;
-        /* margin-top: 10px; */
+        margin-top: 15px;
     }
 
     .btn-position {
@@ -245,7 +246,7 @@ main {
     .img_tea_tree1 {
         width: 151px;
         /* height: 120px; */
-        margin: 30px 10px;
+        margin: 18px 10px;
         padding: 5px;
         border-radius: 20px;
         /* margin-top: 30px; */
@@ -842,7 +843,7 @@ main {
         max-width: 1300px;
         position: relative;
      margin: 0;
-        margin-top:30px;
+        margin-top:35px;
         height: 500px;
         overflow: hidden;
 
@@ -1002,4 +1003,16 @@ main {
     margin-left: 415px;
     
 }
+
+
+.identifiant{
+    margin-left: 15px;
+    margin-top: 30px;
+    font-family: 'Lato';
+    font-weight: 800;
+    font-size: 17px;
+    color: rgb(100 148 65);  
+    
+}
+
 }
