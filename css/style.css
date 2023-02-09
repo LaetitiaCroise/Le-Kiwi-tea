@@ -46,9 +46,9 @@ main {
         font-weight: 800;
         color: rgb(100 148 65);
     }
-  
-    .title_bienvenue{
-        display:none;
+
+    .title_bienvenue {
+        display: none;
     }
 
     .slider-container {
@@ -144,6 +144,7 @@ main {
     .img-tea {
 
         width: 100%;
+        height: 250px;
         object-fit: cover;
         position: sticky;
         margin-top: 75px;
@@ -635,8 +636,9 @@ main {
         margin: auto;
         margin-top: 20px;
     }
-    .slider-container1{
-        display:none;
+
+    .slider-container1 {
+        display: none;
     }
 }
 
@@ -644,28 +646,19 @@ main {
 
 
 @media screen and (min-width: 768px) {
-    .contenaire {
+    .section_contener {
         display: flex;
-        flex-direction: column;
-        background-color: #fff;
-        margin-top: 50px;
+        flex-direction: row;
+        flex-wrap: nowrap;
     }
-    .section_contener{
-        display: flex;
-        flex-direction: column;
-        
-    }
+
     .img_tea_tree {
-        width: 100%;
-        height: 380px;
+        width: 37%;
         border-radius: 45px;
-        padding: 61px;
+        padding: 17px;
         position: absolute;
-        margin: 0;
-}
-.scrollport{
-    margin-top: 75px;
-}
+        margin-top: 15px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -686,9 +679,9 @@ main {
 
     main {
         padding: 0;
-        
-        
-        
+
+
+
     }
 
     .logo {
@@ -857,19 +850,20 @@ main {
         display: flex;
         max-width: 1340px;
         position: relative;
-       margin-left: auto;
-       margin-right: auto;
-        margin-top:30px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
         height: 500px;
         overflow: hidden;
 
     }
-    .slider-container1{
+
+    .slider-container1 {
         display: flex;
         max-width: 1340px;
         position: relative;
-     margin: 0;
-        margin-top:35px;
+        margin: 0;
+        margin-top: 35px;
         height: 500px;
         overflow: hidden;
 
@@ -966,7 +960,8 @@ main {
 
         margin-top: 0px;
     }
-    .img_tea22{
+
+    .img_tea22 {
         margin-top: 20px;
         height: 645px;
         max-width: 1340px;
@@ -974,7 +969,8 @@ main {
         margin-right: auto;
         display: flex;
     }
-    .accordion{
+
+    .accordion {
         width: 97%;
     }
 
@@ -982,11 +978,13 @@ main {
         display: flex;
         margin-top: 40px;
     }
-    .wrapper_cards{
+
+    .wrapper_cards {
         margin: 0;
         display: flex;
-    flex-direction: column;
+        flex-direction: column;
     }
+
     .cards {
         display: flex;
         width: 35%;
@@ -997,61 +995,65 @@ main {
         margin-right: 0;
     }
 
-.card-new {
-    display: flex;
-    font-weight: 700;
-    padding: 10px 19px;
-    background-color: rgb(100 148 65);
-    color: #fff;
-    border-radius: 3px;
-    position: absolute;
-    margin-top: 15px;
-    width: 104px;
-    cursor: pointer;
-    font-weight: 600;
-    font-family: 'Lato';
-    font-size: 14px;
-    margin-left: 300px;
+    .card-new {
+        display: flex;
+        font-weight: 700;
+        padding: 10px 19px;
+        background-color: rgb(100 148 65);
+        color: #fff;
+        border-radius: 3px;
+        position: absolute;
+        margin-top: 15px;
+        width: 104px;
+        cursor: pointer;
+        font-weight: 600;
+        font-family: 'Lato';
+        font-size: 14px;
+        margin-left: 300px;
 
-}
-.card_bloc{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    width: 1340px;
-}
-.img_cards {
-    width: 100%;
-    height: 280px;
-    border-radius: 15px;
-}
-.title_bienvenue{
-    
-    color:  rgb(100 148 65);
-    font-weight: bold;
-    font-family: 'Lato';
-    width: 1340px;
-    margin-right: auto;
-    margin-top: 55px;
-    margin-left: 415px;
-    
-}
+    }
+
+    .card_bloc {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 1340px;
+    }
+
+    .img_cards {
+        width: 100%;
+        height: 280px;
+        border-radius: 15px;
+    }
+
+    .title_bienvenue {
+
+        color: rgb(100 148 65);
+        font-weight: bold;
+        font-family: 'Lato';
+        width: 1340px;
+        margin-right: auto;
+        margin-top: 55px;
+        margin-left: 415px;
+
+    }
 
 
-.identifiant{
-    margin-left: 15px;
-    margin-top: 30px;
-    font-family: 'Lato';
-    font-weight: 800;
-    font-size: 17px;
-    color: rgb(100 148 65);  
-    
-}
-.center{
-    text-align: center;
-    font-family: 'Lato';
-    font-size: 34px;
-    font-weight: 800;
-}
+    .identifiant {
+        margin-left: 15px;
+        margin-top: 30px;
+        font-family: 'Lato';
+        font-weight: 800;
+        font-size: 17px;
+        color: rgb(100 148 65);
+
+    }
+
+    .center {
+        text-align: center;
+        font-family: 'Lato';
+        font-size: 34px;
+        font-weight: 800;
+    }
 
 }
