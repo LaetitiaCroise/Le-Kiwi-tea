@@ -118,7 +118,8 @@ main {
         display: flex;
         flex-direction: column;
         background-color: #fff;
-        /* margin-top: 85px; */
+        margin-top: 50px;
+        padding-top: 0;
     }
 
     .contenaire1 {
@@ -683,7 +684,8 @@ main {
         flex-direction: row;
         width: 820px;
         justify-content: center;
-        margin-top: 15px;
+        padding-top: 80px;
+        /* margin-top: 80px; */
         /* margin-bottom: 60px; */
     }
     
@@ -747,6 +749,31 @@ main {
 .section_id{
     display: flex;
     flex-direction: column;
+}
+.accordion {
+    width: 95%;
+   
+
+}
+.cards {
+   
+    padding-left: 50px;
+    margin-top: 20px;
+
+}
+.title_tea {
+    margin-left: 65px;
+    color: #4e362b;
+    font-family: 'Lato';
+    font-weight: 800;
+    margin-top: 80px;
+}
+.card-new{
+    margin-left: 68%;
+}
+.card_bloc{
+    padding: 0;
+
 }
 
 }
