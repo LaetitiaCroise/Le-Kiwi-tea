@@ -41,7 +41,7 @@ main {
         justify-content: space-between;
         flex-direction: column;
         margin-left: 25px;
-        margin-top: -7px;
+        margin-top: 85px;
         font-family: 'Lato';
         font-weight: 800;
         color: rgb(100 148 65);
@@ -118,7 +118,7 @@ main {
         display: flex;
         flex-direction: column;
         background-color: #fff;
-        margin-top: 85px;
+        /* margin-top: 85px; */
     }
 
     .contenaire1 {
@@ -159,7 +159,7 @@ main {
         border-radius: 45px;
         padding: 17px;
         position: absolute;
-        margin-top: 15px;
+        /* margin-top: 15px; */
     }
 
     .btn-position {
@@ -647,19 +647,108 @@ main {
 
 
 @media screen and (min-width: 768px) {
-    .section_contener {
+    .wapper_header {
         display: flex;
         flex-direction: row;
-        flex-wrap: nowrap;
-    }
+        position: fixed;
+        z-index: 100;
+        width: 100%;
+        padding-left: 170px;
+        padding-right: 170px;
+    background-color: #fff;}
+
+    .section_contener {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    height: auto;}
 
     .img_tea_tree {
-        width: 37%;
+        width: 95%;
+        height: 380px;
         border-radius: 45px;
-        padding: 17px;
+        padding: 15px;
         position: absolute;
-        margin-top: 15px;
+        margin-top: 0;}
+
+
+    .scrollport{
+        display: flex;
+        width: 100%;
+        /* margin-top: 60px; */
+
     }
+    .contenaire{
+        display: flex;
+        flex-direction: row;
+        width: 820px;
+        justify-content: center;
+        margin-top: 15px;
+        /* margin-bottom: 60px; */
+    }
+    
+.contenaire2 {
+    display: flex;
+    /* flex-direction: row; */
+    width: 820px;
+    justify-content: center;
+    /* margin-bottom: 60px; */
+}
+
+.contenaire1  {
+    display: flex;
+    flex-direction: row;
+    width: 820px;
+    justify-content: center;
+    /* margin-top: 60px; */
+    /* margin-bottom: 120px; */
+}
+.container_footer {
+    display: flex;
+    background-color: rgb(78, 54, 43);
+    justify-content: space-around;
+    padding: 30px;
+    margin-top: 75px;
+    
+}
+.logo-header-footer {
+    width: 50%;
+}
+.btn-position {
+    position: relative;
+    padding: 19px;
+    width: 60%;
+    margin: 335px 75px 0 75px;
+    background-color: rgb(100 148 65);
+    border-radius: 15px;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+}
+.btn-position1 {
+    position: relative;
+    padding: 19px;
+    width: 60%;
+    margin: 335px 75px 0 75px;
+    background-color: #4e362b;
+    border-radius: 15px;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+}
+.identifiant{
+    margin: 0;
+    background-color: #fff;
+    padding: 80px 35px 0 35px;
+    font-size: 20px;
+}
+
+
+.section_id{
+    display: flex;
+    flex-direction: column;
+}
+
 }
 
 @media screen and (min-width: 992px) {
@@ -732,6 +821,7 @@ main {
         /* margin-right: auto; */
         display: flex;
         align-items: flex-start;
+        margin-top: 6px;
     }
 
     .nav_desktop {
@@ -802,7 +892,7 @@ main {
         margin-left: auto;
         margin-right: auto;
         justify-content: space-evenly;
-        /* margin-top: -390px; */
+        margin-top: 10px;
 
     }
 
@@ -811,6 +901,7 @@ main {
         width: 100%;
         /* margin: 0 350px; */
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
 
     }
@@ -823,6 +914,7 @@ main {
 
     .img_tea_tree1 {
         width: 200px;
+        height: 130px;
         border-radius: 35px;
     }
 
@@ -1041,8 +1133,8 @@ main {
 
 
     .identifiant {
-        margin-left: 15px;
-        margin-top: 30px;
+        margin-left: -20px;
+        /* margin-top: 30px; */
         font-family: 'Lato';
         font-weight: 800;
         font-size: 17px;
