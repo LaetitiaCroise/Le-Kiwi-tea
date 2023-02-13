@@ -1097,6 +1097,7 @@ main {
     .title_tea {
         display: flex;
         margin-top: 40px;
+        margin-left: 0;
     }
 
     .wrapper_cards {
@@ -1113,6 +1114,7 @@ main {
         align-content: flex-start;
         margin-left: 0;
         margin-right: 0;
+        padding-left: 0;
     }
 
     .card-new {
